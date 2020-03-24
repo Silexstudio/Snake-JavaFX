@@ -1,0 +1,52 @@
+#btn1, #btn2, #btn3, #btn4, #btn5{
+    -fx-cursor: hand;
+    -fx-pref-height:100;
+    -fx-pref-width:465;
+    -fx-background-position: 0 0;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover{
+    -fx-background-position: 0 100
+}
+
+#btn1{
+    -fx-background-image: url(../images/btn1.png);
+}
+
+#btn1:pressed{
+    -fx-rotate: 5;
+}
+
+#btn2{
+    -fx-background-image: url(../images/btn2.png);
+}
+
+#btn2:pressed{
+    -fx-rotate: -10;
+}
+
+#btn3{
+    -fx-background-image: url(../images/btn3.png);
+}
+
+#btn3:pressed{
+    -fx-rotate: 10;
+}
+
+#btn4{
+    -fx-background-image: url(../images/btn4.png);
+}
+
+#btn4:pressed{
+    -fx-rotate: -13;
+}
+
+#btn5{
+    -fx-background-image: url(../images/btn5.png);
+}
+
+#low-bg{
+    -fx-pref-width:1920;
+    -fx-pref-height:1080;
+    -fx-background-image: url(../images/low/main.png);
+}

@@ -1,0 +1,55 @@
+#bg-1, #bg-2, #bg-3, #bg-4{
+    -fx-pref-width: 1920;
+    -fx-pref-height: 1080;
+}
+
+#bg-1{
+    -fx-background-image: url(../images/tut1.png);
+}
+
+#bg-2{
+    -fx-background-image: url(../images/tut2.png);
+}
+
+.text-field{
+    -fx-pref-width: 205;
+    -fx-pref-height: 40;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-font-family: "Bebas Neue";
+    -fx-font-size: 24px;
+}
+
+#btn1, #btn1-disabled, #btn2{
+    -fx-cursor: hand;
+    -fx-pref-height:112;
+    -fx-pref-width:350;
+    -fx-background-position: 0 0;
+}
+
+#btn1{
+    -fx-background-image: url(../images/start.png);
+}
+
+#btn1:hover{
+    -fx-background-position: 0 224;
+}
+
+#btn2{
+    -fx-background-image: url(../images/back.png);
+}
+
+#btn2:hover{
+    -fx-background-position: 0 112;
+}
+
+#btn1-disabled{
+    -fx-background-position: 0 112;
+}
+
+#low-bg{
+    -fx-pref-width:1920;
+    -fx-pref-height:1080;
+    -fx-background-image: url(../images/low/basic.png);
+}

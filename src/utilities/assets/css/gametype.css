@@ -1,0 +1,46 @@
+#cl-1, #cl-2, #cl-3, #cl-4, #cl-go, #cl-wrapper{
+    -fx-pref-height:528;
+    -fx-pref-width:368;
+}
+
+#cl-wrapper{
+    -fx-cursor: hand;
+}
+
+#cl-1{
+    -fx-background-image: url(../images/cl-1.jpg);
+}
+
+#cl-2{
+    -fx-background-image: url(../images/cl-2.jpg);
+}
+
+#cl-3{
+    -fx-background-image: url(../images/cl-3.jpg);
+}
+
+#cl-4{
+    -fx-background-image: url(../images/cl-4.jpg);
+}
+
+#cl-go{
+    -fx-background-image: url(../images/cl-go.jpg);
+}
+
+#btn1{
+    -fx-cursor: hand;
+    -fx-pref-height:112;
+    -fx-pref-width:350;
+    -fx-background-position: 0 0;
+    -fx-background-image: url(../images/back.png);
+}
+
+#btn1:hover{
+    -fx-background-position: 0 112;
+}
+
+#low-bg{
+    -fx-pref-width:1920;
+    -fx-pref-height:1080;
+    -fx-background-image: url(../images/low/basic.png);
+}

@@ -1,0 +1,43 @@
+#panel{
+    -fx-background-image: url(../images/panel.png);
+    -fx-pref-width:550;
+    -fx-pref-height:350;
+}
+
+#setting, #setting-active{
+    -fx-background-image: url(../images/s1.png);
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width:400;
+    -fx-pref-height:45;
+    -fx-cursor: hand;
+}
+
+#setting:hover{
+    -fx-background-image: url(../images/s2.png);
+}
+
+#setting-active{
+    -fx-background-image: url(../images/s3.png);
+}
+
+#btn1{
+    -fx-cursor: hand;
+    -fx-pref-height:112;
+    -fx-pref-width:350;
+    -fx-background-position: 0 0;
+    -fx-background-image: url(../images/back.png);
+}
+
+#btn1:hover{
+    -fx-background-position: 0 112;
+}
+
+#btn1:pressed{
+    -fx-rotate: 5;
+}
+
+#low-bg{
+    -fx-pref-width:1920;
+    -fx-pref-height:1080;
+    -fx-background-image: url(../images/low/basic.png);
+}

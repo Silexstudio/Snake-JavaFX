@@ -1,0 +1,32 @@
+.root{
+    -fx-font-family: "Bebas Neue";
+    -fx-font-size: 46;
+}
+
+#low-bg{
+    -fx-pref-width:1920;
+    -fx-pref-height:1080;
+    -fx-background-image: url(../images/low/scoreboard.png);
+}
+
+#btn1{
+    -fx-cursor: hand;
+    -fx-pref-height:112;
+    -fx-pref-width:350;
+    -fx-background-position: 0 0;
+    -fx-background-image: url(../images/back.png);
+}
+
+#table{
+    -fx-pref-width:1920;
+    -fx-pref-height:1080;
+    -fx-background-image: url(../images/scoreboard.png);
+}
+
+#btn1:hover{
+    -fx-background-position: 0 112;
+}
+
+#btn1:pressed{
+    -fx-rotate: 5;
+}

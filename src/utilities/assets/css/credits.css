@@ -1,0 +1,21 @@
+#btn5{
+    -fx-cursor: hand;
+    -fx-pref-height:112;
+    -fx-pref-width:350;
+    -fx-background-position: 0 0;
+    -fx-background-image: url(../images/back.png);
+}
+
+#btn5:hover{
+    -fx-background-position: 0 112;
+}
+
+#btn5:pressed{
+    -fx-rotate: 5;
+}
+
+#low-bg{
+    -fx-pref-width:1920;
+    -fx-pref-height:1080;
+    -fx-background-image: url(../images/low/credits.jpg);
+}
