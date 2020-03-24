@@ -15,4 +15,4 @@ Please take a look at the demo below.
 
 # Demo
 
-[![Demo Video](https://i.ytimg.com/vi/FtkkR6k1I5s/hqdefault.jpg)](https://www.youtube.com/watch?v=FtkkR6k1I5s)
+[![Demo Video](https://i.ytimg.com/vi/FtkkR6k1I5s/maxresdefault.jpg)](https://www.youtube.com/watch?v=FtkkR6k1I5s)
